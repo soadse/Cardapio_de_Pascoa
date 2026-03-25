@@ -9,7 +9,6 @@ body {
     height: 100vh;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    
 }
 
 .container {
@@ -75,4 +74,10 @@ body {
         width: 30px;
         }
     } 
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        display: none;
+    }
 }
