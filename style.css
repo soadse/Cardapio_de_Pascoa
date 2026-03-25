@@ -23,11 +23,11 @@ body {
     body {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
-        grid-template-rows: repeat(5, 1fr);    /* 5 linhas iguais */
         gap: 5px; /* opcional: espaço entre os itens */
     }
     .container {
         height: 100vh;
+        background-size: contain;
     }
 }
 .sec01 {
