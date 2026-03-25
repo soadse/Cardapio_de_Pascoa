@@ -16,8 +16,13 @@ body {
     min-height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     margin-bottom: 10px;
+}
+@media (min-width: 500px)  {
+    .container {
+        background-size: contain;
+    }
 }
 .sec01 {
     background-image: url(images/1.png);
@@ -76,8 +81,8 @@ body {
     } 
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     body {
         display: none;
     }
-}
+} */
