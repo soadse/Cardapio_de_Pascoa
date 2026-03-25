@@ -8,8 +8,6 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    scroll-snap-type: mandatory;
-    overflow-y: scroll;
 }
 
 .container {
@@ -19,7 +17,6 @@ body {
     background-position: center center;
     background-size: cover;
     margin-bottom: 10px;
-    scroll-snap-align: start;
 }
 .sec01 {
     background-image: url(images/1.png);
