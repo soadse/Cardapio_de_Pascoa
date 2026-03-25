@@ -23,13 +23,13 @@ body {
     body {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 2 colunas iguais */
-        gap: 5px; /* opcional: espaço entre os itens */
+        gap: 10px; /* opcional: espaço entre os itens */
     }
     .container {
         height: 100vh;
         background-size: contain;
     }
-    .sec11 {
+    .sec11 p {
         display: none;
     }
 }
