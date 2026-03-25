@@ -22,12 +22,15 @@ body {
 @media (min-width: 480px)  {
     body {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+        grid-template-columns: repeat(3, 1fr); /* 2 colunas iguais */
         gap: 5px; /* opcional: espaço entre os itens */
     }
     .container {
         height: 100vh;
         background-size: contain;
+    }
+    .sec11 {
+        display: none;
     }
 }
 .sec01 {
